@@ -12,3 +12,14 @@ bib:
 
 view:
 	evince *.pdf &
+
+clean:
+	rm -rf *.toc
+	rm -rf *.bbl
+	rm -rf *.blg
+	rm -rf *.aux
+	rm -rf *.log
+	rm -rf *.out
+	rm -rf *.run.xml
+	rm -rf *.bcf
+	rm chapters/*.aux

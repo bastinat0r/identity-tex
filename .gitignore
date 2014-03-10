@@ -1,0 +1,12 @@
+*.toc
+*.bbl
+*.blg
+*.aux
+*.log
+*.out
+*.run.xml
+*.bcf
+chapters/*.aux
+*.swp
+*.pdf
+quellen
