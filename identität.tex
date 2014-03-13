@@ -30,7 +30,7 @@ backref=false,              % Seiten anzeigen, auf denen die Referenz vorkommt
 backrefstyle=three+,       % fasst Seiten zusammen, z.B. S. 2f, 6ff, 7-10
 date=short                % Datumsformat
 ]{biblatex}
-
+\newcommand{\todo}[1]{\marginpar{#1}}
 \bibliography{sources}
 
 \DeclareBibliographyDriver{report}{%
