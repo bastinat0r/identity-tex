@@ -3,11 +3,11 @@ all: pdf view
 	echo 'pling'
 
 pdf: bib
-	pdflatex identität.tex
+	pdflatex identität.tex > /dev/null
 	pdflatex identität.tex
 
 bib:
-	pdflatex identität.tex
+	pdflatex identität.tex > /dev/null
 	biber identität
 
 view:
